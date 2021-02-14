@@ -1,65 +1,50 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React, { useRef, useEffect, useState } from 'react';
+import Head from 'next/head';
+import styles from '../styles/Home.module.scss';
+import FirstSection from '../componets/FirstSection';
+import SecondSection from "../componets/SecondSection";
+import ThirdSection from "../componets/ThirdSection";
+import FourthSection from "../componets/FourthSection";
+import FifthSection from "../componets/FifthSection";
+import { gsap, Expo } from "gsap";
+import {ScrollTrigger} from "gsap/dist/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Home() {
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
+
+const Home = () => { 
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
+    <>
+        <Head>
+          <title>Feniks</title>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
+        <main className={styles.main}>
+          <section id='firstSec'>
+            <FirstSection/>
+          </section>
+          <section id='secondSec'>
+            <SecondSection/>
+          </section>
+          <section id='thirdSec'>
+            <ThirdSection />
+          </section>
+          <section id='fourthSec'>
+            <FourthSection />
+          </section>
+          <section id='fifthSec'>
+            <FifthSection />
+          </section>
+        </main>
+        <footer className={styles.footer}>
+            <h5>© 2021 Copyright <b>Creall</b>. All rights reserved.</h5>
+            <h5>Designed with love by <a href='#'><img src='assets/minelogo.png' /></a> </h5>
+        </footer>
+    </>
   )
 }
+
+
+export default Home;

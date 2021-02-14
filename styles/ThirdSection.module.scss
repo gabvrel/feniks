@@ -1,0 +1,126 @@
+.paddingTop{
+    padding-top: 5vh;
+}
+.leftSecond{
+    h1{
+        font-size: 21px;
+        color: black;
+    }
+}
+.img.card-img {
+    height: 100% !important;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    div{
+        flex:1
+    }
+    .secondLeftTItle{
+        margin-left: 20px;
+        max-width: 60%;
+    }
+}
+.centerSecond{
+    color: black;
+    text-align: center;
+    h1{
+        font-size: 21px;
+    }
+    h4{
+        font-size: 21px;
+    }
+    img{
+        position: absolute;
+        right: -55%;
+        z-index: 99;
+        top: 12vh;
+        width: 60%;
+    }
+}
+.c{
+    position: absolute;
+    cursor: pointer;
+    will-change: transform, opacity;
+}
+
+.imageCard{
+   background-color: #f6f2f3 !important; 
+   border: none !important;
+   width: 95%;
+   height: 68.5vh;
+   img{
+       height: 100%;
+       object-fit: cover;
+       cursor: pointer;
+       filter: drop-shadow(2px 4px 8px #585858);
+   }
+}
+.leafs{
+    position: absolute;
+    right: 44vw;
+    top: 49vh;
+    z-index: 99;
+    max-width: 175px !important;
+}
+.bodyCard{
+    span.mainSpan{
+        font-size: 65px;
+        font-weight: bold;
+        color:  #ffd6c8;
+    }
+    span.secondSpan{
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: black;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;   
+    }
+}
+.button{
+    background: rgb(255,102,53);
+    background: linear-gradient(247deg, rgba(255,102,53,1) 0%, rgba(255,122,54,1) 50%, rgba(252,136,56,1) 100%);
+    border: 0px !important;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .leftSecond{
+        h1{
+            display: none;
+        }
+    }
+    .centerSecond{
+        h4{
+            max-width: 85%;
+            text-align: justify;
+        }
+        img{
+            display: none;
+        }
+    }
+    .cardsCont{
+        display: none;
+    }
+    .leafs{
+        right: 9vw;
+        top: 5vh;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 768px){
+    .info{
+        margin-top: 0;
+    }
+}

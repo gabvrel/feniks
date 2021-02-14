@@ -1,0 +1,118 @@
+.lastFlex{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+.head{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+    opacity: 0.15;
+    top: 50px;
+}
+.spa{
+    position: relative;
+    max-width: 440px;
+    height: 40vh;
+    z-index: 10;
+    filter: drop-shadow(2px 4px 8px #585858);
+}
+.desc{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    .descImg{
+        position: absolute;
+        width: 53%;
+        top: -15vh;
+        right: -8vw;
+    }
+}
+.email{
+    margin-right: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 0px;
+    padding: 5px 15px;
+    width: 65%;
+}
+.button{
+    background: rgb(255,102,53);
+    background: linear-gradient(247deg, rgba(255,102,53,1) 0%, rgba(255,122,54,1) 50%, rgba(252,136,56,1) 100%);
+    border: 0px !important;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    &:hover{
+        transform: scale(1.05);
+        transition: transform 0.6s cubic-bezier(0.61, 1, 0.88, 1);
+    }
+}
+.form{
+    width: 95%;
+}
+.socialwrapper{
+    display: flex;
+    width: 60%;
+    a{
+        flex: 1;
+        .social{
+            background: rgb(255,102,53);
+            background: linear-gradient(247deg, rgba(255,102,53,1) 0%, rgba(255,122,54,1) 50%, rgba(252,136,56,1) 100%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            opacity: 0.5;
+        }
+    }
+    a:hover{
+        .social{
+            opacity: 1;
+        }
+    }
+}
+#ff-title-root{
+    display: none !important;
+}
+@media only screen and (max-width: 768px) {
+    .descImg{
+        display: none;
+    }
+    .lastFlex{
+        .center:first-child{
+                display: none
+        }
+    }
+    .desc{
+        margin-top: -5vh;
+    }
+  }
+
+  @media only screen and (orientation: landscape) and (max-width: 768px){
+    .lastHead{
+    p{
+        max-width: 100% !important;
+        margin-top: 2vh !important;
+    }
+    h3{
+        margin-top: 0 !important;
+    }
+    .desc{
+        height: 50vh;
+    }
+  }
+}

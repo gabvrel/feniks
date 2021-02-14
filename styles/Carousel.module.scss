@@ -1,0 +1,23 @@
+.carousel{
+    position: absolute !important;
+    top: -15vh;
+    background-color: black;
+    max-width: 35.5vw;
+    left: 32%;
+    height: 47vh;
+    img{
+        width: inherit;
+        top: -2px;
+        height: 48vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel{
+        max-width: 100% !important;
+        left: 0;
+        top: 0;
+        height: 50vh;
+    }
+    
+  }
