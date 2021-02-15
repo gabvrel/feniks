@@ -40,7 +40,7 @@ const Home = () => {
         </main>
         <footer className={styles.footer}>
             <h5>© 2021 Copyright. All rights reserved.</h5>
-            <h5>Quito-Ecuador, Sector Norte Hospital de Solca.</h5>
+            <h5>Quito-Ecuador, Sector Norte</h5>
             <h5>Designed with love by <a href='#'><img src='assets/minelogo.png' /></a> </h5>
         </footer>
     </>
