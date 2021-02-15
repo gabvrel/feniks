@@ -36,7 +36,7 @@ const FifthSection = () => {
                     <Col ref={form} className={styles.desc}>
                         <img src='assets/thirdrigth.png' className={styles.descImg} />
                             <h1>Contactos</h1>
-                            <p>Suscribete a nuestras promociones.</p>
+                            <p>Suscribete a nuestras noticias.</p>
 {/*                             <form method="POST" className={styles.form}
                             action="https://api.slapform.com/gabvrel@gmail.com">
                                 <input type="email" name="email" placeholder='email' className={styles.email}/>
