@@ -36,21 +36,18 @@ const FifthSection = () => {
                     <Col ref={form} className={styles.desc}>
                         <img src='assets/thirdrigth.png' className={styles.descImg} />
                             <h1>Contactos</h1>
-                            <p>Suscribete a nuestras noticias.</p>
+                            <p>Encuentranos en redes sociales</p>
 {/*                             <form method="POST" className={styles.form}
                             action="https://api.slapform.com/gabvrel@gmail.com">
                                 <input type="email" name="email" placeholder='email' className={styles.email}/>
                                 <input type="text" name="slap_honey" hidden />
                                 <button type="submit" className={styles.button}>Submit</button>
                             </form> */}
-                            <div class="container" id="ff-compose"></div>
-<script async defer src="https://formfacade.com/include/114061985191388198571/form/1FAIpQLSf3rIMDCyNLlEswG11-LnxS0XdTjgffbpxQzwInj1QPqyGW6A/bootstrap.js?div=ff-compose"></script>
-                            <p>Al suscribirte tendras acceso directo a nuestras promociones, noticias y ofertas de empleo
-                                que no necesariamente tienen relacion con la cosmetologia. Las promociones tienen restricciones
-                                que limitan su aplicacion (leer en formulario).
+                            <p>Siguenos en nuestras redes y accede a promociones unicas, asi como ofertas de empleo
+                                y resultados de nuestros clientes.
                             </p>
                             <div className={styles.socialwrapper}>
-                            <a href="#">
+                            <a href="https://www.facebook.com/Feniks-105704351563158">
                                 <img src='assets/face.png' className={styles.social} />
                             </a>
                             <a href="#">
@@ -59,7 +56,7 @@ const FifthSection = () => {
                             <a href="https://wa.me/593992709590">
                                 <img src='assets/whats.png' className={styles.social} />
                             </a>
-                            <a href="#">
+                            <a href="https://www.youtube.com/channel/UCGyOBRp_41bxd-vZ6MOjEsw?guided_help_flow=5">
                                 <img src='assets/yt.png' className={styles.social} />
                             </a>
                         </div>
