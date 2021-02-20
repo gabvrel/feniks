@@ -14,7 +14,8 @@ const CarouselItem = () => {
         <Carousel activeIndex={index} onSelect={handleSelect} className={styles.carousel}>
         <Carousel.Item>
             <img
-            style={{    width: 'inherit',top: '-2px',height: '48vh'}}
+            className={styles.image}
+           /*  style={{    width: 'inherit',top: '-2px',height: '45vh'}} */
             src="assets/sld1.jpg"
             alt="First slide"
             />
@@ -27,7 +28,8 @@ const CarouselItem = () => {
         </Carousel.Item>
         <Carousel.Item>
             <img
-            style={{    width: 'inherit',top: '-2px',height: '48vh'}}
+             className={styles.image}
+            /* style={{    width: 'inherit',top: '-2px',height: '48vh'}} */
             src="assets/woman.jpg"
             alt="Second slide"
             />
@@ -40,7 +42,7 @@ const CarouselItem = () => {
         </Carousel.Item>
         <Carousel.Item>
             <img
-            style={{    width: 'inherit',top: '-2px',height: '48vh'}}
+             className={styles.image}
             src="assets/attr.jpg"
             alt="Third slide"
             />
