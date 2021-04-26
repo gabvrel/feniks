@@ -95,7 +95,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation:portrait){
     .leftSecond{
         h1{
             display: none;
@@ -119,8 +119,40 @@
     }
 }
 
-@media only screen and (orientation: landscape) and (max-width: 768px){
+@media only screen and (orientation: landscape) and (max-width: 1024px){
+    .leftSecond{
+        h1{
+            font-size: 1.05rem !important;
+        }
+    }
+    .centerSecond{
+        h4{
+        font-size: 0.95rem !important;
+        }
+    }
+    .secondLeftTItle{
+        font-size: 1.05rem !important;
+    }
+    .mainSpan{
+        font-size: 1.35rem !important;
+    }
     .info{
         margin-top: 0;
+    }
+    .secondSpan{
+
+    }
+    .bodyCard{
+        padding-top: 0 !important;
+        p{
+            font-size: 0.75rem !important;
+            margin-bottom: 0;
+            margin-bottom: 2.5vh;
+        }
+    }
+    .button{
+        font-size: 0.75rem !important;
+        padding: 8px 5px;
+        margin-top: 2vh;
     }
 }

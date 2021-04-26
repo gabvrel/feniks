@@ -24,10 +24,18 @@
     margin-bottom: 7px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation:portrait){
   .footer{
     flex-direction: column;
     text-align: center;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 1024px){
+  .footer{
+    h5{
+      font-size: 1.05rem !important;
+    }
   }
 }
 

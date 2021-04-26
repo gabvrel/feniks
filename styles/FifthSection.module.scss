@@ -88,7 +88,7 @@
 .ff-form .ff-powered-img img {
     display: none !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation: portrait){
     .descImg{
         display: none;
     }
@@ -106,7 +106,7 @@
     }
   }
 
-  @media only screen and (orientation: landscape) and (max-width: 768px){
+  @media only screen and (orientation: landscape) and (max-width: 1024px){
     .lastHead{
     p{
         max-width: 100% !important;
@@ -115,8 +115,14 @@
     h3{
         margin-top: 0 !important;
     }
-    .desc{
-        height: 50vh;
-    }
   }
+  .desc{
+    height: 50vh;
+    h1{
+        font-size: 1.15rem !important;
+    }
+    p{
+        font-size: 1.05rem !important;
+    }
+}
 }

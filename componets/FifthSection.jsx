@@ -37,12 +37,6 @@ const FifthSection = () => {
                         <img src='assets/thirdrigth.png' className={styles.descImg} />
                             <h1>Contactos</h1>
                             <p>Encuentranos en redes sociales</p>
-{/*                             <form method="POST" className={styles.form}
-                            action="https://api.slapform.com/gabvrel@gmail.com">
-                                <input type="email" name="email" placeholder='email' className={styles.email}/>
-                                <input type="text" name="slap_honey" hidden />
-                                <button type="submit" className={styles.button}>Submit</button>
-                            </form> */}
                             <p>Siguenos en nuestras redes y accede a promociones unicas, asi como ofertas de empleo
                                 y resultados de nuestros clientes.
                             </p>
