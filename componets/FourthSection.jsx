@@ -78,9 +78,8 @@ const FouthSection = () => {
                 </Col>
                 <Col ref={desc} md={8} className={styles.center}>
                     <h3 className={styles.feniksfour}>Feniks</h3>
-                    <p>Somos especialistas en cosmetologia con mas de 10 años de experiencia contamos con profesionales 
-                        graduados en paises como España, Turquia y Grecia. Ofrecemos un servicio de calidad
-                        en Ecuador apuntando a llegar alto con resultados visibles.
+                    <p>Somos especialistas en cosmetología y cosmiatria con más de 6 años de experiencia contamos. Ofrecemos un servicio de calidad
+                        apuntando a llegar alto con resultados visibles.
                     </p> 
                 </Col>
             </Row>

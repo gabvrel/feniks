@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Head>
-        <title>Feniks</title>
+        <title>Bella Imagen</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>

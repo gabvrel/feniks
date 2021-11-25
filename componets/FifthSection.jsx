@@ -41,18 +41,18 @@ const FifthSection = () => {
                                 y resultados de nuestros clientes.
                             </p>
                             <div className={styles.socialwrapper}>
-                            <a href="https://www.facebook.com/Feniks-105704351563158">
+                            <a href="https://www.facebook.com/BelleImagenEstetica/">
                                 <img src='assets/face.png' className={styles.social} />
                             </a>
-                            <a href="#">
+                            <a href="https://www.instagram.com/bellaimagen777/?utm_medium=copy_link">
                                 <img src='assets/insta.png' className={styles.social} />
                             </a>
-                            <a href="https://wa.me/593992709590">
+                            <a href="https://wa.me/593987958346">
                                 <img src='assets/whats.png' className={styles.social} />
                             </a>
-                            <a href="https://www.youtube.com/channel/UCGyOBRp_41bxd-vZ6MOjEsw?guided_help_flow=5">
+{/*                             <a href="https://www.youtube.com/channel/UCGyOBRp_41bxd-vZ6MOjEsw?guided_help_flow=5">
                                 <img src='assets/yt.png' className={styles.social} />
-                            </a>
+                            </a> */}
                         </div>
                     </Col>
                 </Row>

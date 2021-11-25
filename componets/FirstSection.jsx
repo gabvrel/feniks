@@ -65,7 +65,7 @@ const FirstSection = () => {
                 opacity: 0,
                 y: -100,
                 duration: 2}, 1.5)
-        .to(mainTitle.current, {duration:3,  delay:0.5, text: {value: "Feniks -", delimiter: ""}},1)
+        .to(mainTitle.current, {duration:3,  delay:0.5, text: {value: "Bella -", delimiter: ""}},1)
     },[])
 
     return (
@@ -73,7 +73,7 @@ const FirstSection = () => {
         <Container>
             <Row className={styles.paddingTop}>
                 <Col sm={0} className={styles.leftHead}>
-                  <h3 ref={menu}>KOSMETOS</h3>
+                  <h3 ref={menu}>BELLA IMAGEN</h3>
                   <div className={styles.test}  ref={veticalRef}>
                     <p id="titleTest">COSMETOLOGIA MODERNA</p>
                     <p>2021</p>
@@ -89,11 +89,10 @@ const FirstSection = () => {
                   <div className={styles.secondHead}>
                     <h1 className='c'>"</h1>
                     <h1 ref={mainTitle} className='first'> </h1>
-                    <h6 className='textApear'>especialistas en cuidado de piel,<span>enfocados en tratamientos de acne</span></h6>
+                    <h6 className='textApear'>Especialistas en cuidado de piel,<span>enfocados en tratamientos de acne </span><span>Rejuvenecimientos faciales</span></h6>
                   </div>
                   <div className={styles.lastHead}>
-                    <p className='textApear'>Desarrollamos un medio para dejar nuestra imagen plantada en 
-                    los resultados de nuestros clientes, con el fin de llegar a un mismo objetivo juntos.
+                    <p className='textApear'>Trabajamos de manera personalizada para obtener mejores resultados
                     </p>
                     <h3 className='textApear'>Solo dejate llevar!</h3>
                     <img src="assets/leafsrigth.png" alt="random beautiful medicinal leafs" ref={img2} className={styles.headImg}/>
