@@ -14,8 +14,7 @@ const FifthSection = () => {
     const form = useRef(null);
     useEffect(()=>{
         const tl5 = gsap.timeline();
-        tl5.to('#titleTest', {duration:2, text: {value: "DEJATE LLEVAR", delimiter: " "}, ease: Expo.easeInOut})  
-           .from(img.current, {duration:2, delay:0.7, xPercent:-50, opacity:0 ,ease: Expo.easeInOut})
+        tl5.from(img.current, {duration:2, delay:0.7, xPercent:-50, opacity:0 ,ease: Expo.easeInOut})
            .from(form.current, {duration:2, delay:0.7, xPercent:50, opacity:0 ,ease: Expo.easeInOut})
            .to('#ff-title-root',{display: 'none !important'}) 
         ScrollTrigger.create({
@@ -36,8 +35,8 @@ const FifthSection = () => {
                     <Col ref={form} className={styles.desc}>
                         <img src='assets/thirdrigth.png' className={styles.descImg} />
                             <h1>Contactos</h1>
-                            <p>Encuentranos en redes sociales</p>
-                            <p>Siguenos en nuestras redes y accede a promociones unicas, asi como ofertas de empleo
+                            <p>Encuentranos en redes sociales y siguenos</p>
+                            <p>Puedes acceder a promociones unicas
                                 y resultados de nuestros clientes.
                             </p>
                             <div className={styles.socialwrapper}>

@@ -77,13 +77,13 @@ const FouthSection = () => {
                     <img src='assets/singleLeaf.png' className={styles.singleLeaf} />
                 </Col>
                 <Col ref={desc} md={8} className={styles.center}>
-                    <h3 className={styles.feniksfour}>Feniks</h3>
-                    <p>Somos especialistas en cosmetología y cosmiatria con más de 6 años de experiencia contamos. Ofrecemos un servicio de calidad
+                    <h3 className={styles.cursive}>Bella Imagen</h3>
+                    <p>Somos especialistas en cosmetología, cosmiatria y dermatocosmiatría más de 6 años de experiencia contamos. Ofrecemos un servicio de calidad
                         apuntando a llegar alto con resultados visibles.
                     </p> 
                 </Col>
             </Row>
-            <Row style={{marginTop: '2.5vh'}}>
+            <Row style={{marginTop: '2.5vh', display: "none"}}>
                 <Col md={4} className={styles.description}>
                     <div>
                         <h1>{counter1.value}+</h1>

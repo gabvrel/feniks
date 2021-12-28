@@ -32,11 +32,11 @@ const ThirdSection = () => {
             <Container ref={mainRef} className={styles.paddingTop}>
                 <Row>
                     <Col ref={title} md={3} className={styles.leftSecond}>
-                            <h1>ESTAMOS COMENZANDO</h1>
+                           
                     </Col>
                     <Col ref={desc} md={6} className={styles.centerSecond}>
-                            <h4>A diferencia de cualquier otro centro cosmetologico, nos centramos en un tratamiento mas
-                                personal obteniendo una calidad alta y precios bajos.
+                            <h4>A diferencia de cualquier otro centro cosmetologico, nos centramos en un tratamiento personalizado de
+                                 calidad y precios bajos.
                             </h4>
                             <img src='assets/lastd.png' />
                     </Col>

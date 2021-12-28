@@ -41,12 +41,8 @@ const SecondSection = () => {
                             <h1 ref={test}>Nuestro Concepto</h1>
                         </Col>
                         <Col md={6} ref={lol} className={styles.centerSecond}>
-                            <h1>Nos interesa crecer juntos</h1>
                             <h4>
-                                Los mejores profesionales usando los mejores
-                                productos, tratamientos personalizados enfocados en
-                                resultados. Queremos crecer juntos y le invitamos a 
-                                formar parte de este proceso.   
+                                Tratamientos personalizados enfocados en resultados con los mejores productos.
                             </h4>
                         </Col>
                         <Col md={3} className={styles.imgContainer}>

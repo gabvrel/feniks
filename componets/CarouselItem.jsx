@@ -36,7 +36,7 @@ const CarouselItem = () => {
             <Carousel.Caption style={{position: 'absolute', color: 'white'}}>
             <h3>Tratamiento de Acne</h3>
             <p>
-                Trabajamos entre cosmetologos y dermatologos para hallar el mejor tratamiento.
+                Con resultados visibles, desde la primera cita.
             </p>
             </Carousel.Caption>
         </Carousel.Item>

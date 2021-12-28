@@ -65,36 +65,31 @@ const FirstSection = () => {
                 opacity: 0,
                 y: -100,
                 duration: 2}, 1.5)
-        .to(mainTitle.current, {duration:3,  delay:0.5, text: {value: "Bella -", delimiter: ""}},1)
     },[])
 
     return (
-      <div>
+      <div className={styles.bellaLogo}>
         <Container>
             <Row className={styles.paddingTop}>
                 <Col sm={0} className={styles.leftHead}>
-                  <h3 ref={menu}>BELLA IMAGEN</h3>
+                  <h3 ref={menu} className={styles.cursive}>Bella Imagen</h3>
                   <div className={styles.test}  ref={veticalRef}>
                     <p id="titleTest">COSMETOLOGIA MODERNA</p>
-                    <p>2021</p>
+                    <p>2022</p>
                   </div>
                   <img src="assets/bck.png" alt="beauty medicinal leafs" ref={img1}/>
                 </Col>
                 <Col className={styles.rightHead}>
                   <div className={styles.firstHead} className='textApear'>
-                    <h3>BELLEZA</h3>
-                    <p>Un concepto moderno para la</p>
-                    <p>Cosmetologia</p>
+                    <p>Tu centro estético y</p>
+                    <p>belleza Integral</p>
                   </div>
                   <div className={styles.secondHead}>
-                    <h1 className='c'>"</h1>
-                    <h1 ref={mainTitle} className='first'> </h1>
-                    <h6 className='textApear'>Especialistas en cuidado de piel,<span>enfocados en tratamientos de acne </span><span>Rejuvenecimientos faciales</span></h6>
+                    <h6 className='textApear'>Especialistas en cuidado de piel facial<span> y corporal, Enfocados en tratamientos</span> <span>de acne,  Rejuvenecimientos faciales,</span><span> Lifting, tonificación, reducción de</span><span> medidas y mucho más...</span></h6>
                   </div>
                   <div className={styles.lastHead}>
                     <p className='textApear'>Trabajamos de manera personalizada para obtener mejores resultados
                     </p>
-                    <h3 className='textApear'>Solo dejate llevar!</h3>
                     <img src="assets/leafsrigth.png" alt="random beautiful medicinal leafs" ref={img2} className={styles.headImg}/>
                   </div>
                 </Col>

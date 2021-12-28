@@ -31,11 +31,10 @@ const CardsItem = (props) => {
                 <div>
                     <h3 className={styles.secondLeftTItle}>Aun estas a tiempo!</h3>
                 <Card.Body className={styles.bodyCard}>
-                    <Card.Title><span className={styles.mainSpan}>Gratis!</span></Card.Title>
-                    <Card.Text><span className={styles.secondSpan}>Limpieza facial</span></Card.Text>
+                    <Card.Title><span className={styles.mainSpan}>Promoción!</span></Card.Title>
+                    {/* <Card.Text><span className={styles.secondSpan}>Limpieza facial</span></Card.Text> */}
                     <Card.Text>
-                    Como parte de nuestra apertura ofrecemos limpiezas faciales gratuitas, para demostrar nuestra
-                    calidad (aplica restricciones).
+                    LLena el formulario para acceder al 25% de descuento en tu primer tratamiento (aplica restricciones)
                     </Card.Text>
                     <a href='https://forms.gle/1vtV2cMiDxvZUJoE9' target="_blank" className={styles.button}>Inscribirse en promocion</a>
                 </Card.Body>
