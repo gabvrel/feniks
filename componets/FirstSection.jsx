@@ -81,7 +81,7 @@ const FirstSection = () => {
                 </Col>
                 <Col className={styles.rightHead}>
                   <div className={styles.firstHead} className='textApear'>
-                    <p>Tu centro estético y</p>
+                    <p>Tú centro de estética y</p>
                     <p>belleza Integral</p>
                   </div>
                   <div className={styles.secondHead}>
