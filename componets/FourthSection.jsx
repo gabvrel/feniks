@@ -78,7 +78,7 @@ const FouthSection = () => {
                 </Col>
                 <Col ref={desc} md={8} className={styles.center}>
                     <h3 className={styles.cursive}>Bella Imagen</h3>
-                    <p>Somos especialistas en cosmetología, cosmiatria y dermatocosmiatría más de 6 años de experiencia contamos. Ofrecemos un servicio de calidad
+                    <p>Somos especialistas en cosmetología, cosmiatria y dermatocosmiatría más de 6 años de experiencia. Ofrecemos un servicio de calidad
                         apuntando a llegar alto con resultados visibles.
                     </p> 
                 </Col>
